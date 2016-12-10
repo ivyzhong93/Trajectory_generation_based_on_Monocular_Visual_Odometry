@@ -8,4 +8,5 @@ Nowadays, mobile phone is extremely common in our daily life. Implementation of 
 I write our code based on Avi Singh’s Github project Monocular Visual Odometry using OpenCV, which only works on image dataset with groundtruth. 
 # Results
 In this section, we make the app run under straightway, curve, back and forth, U-turn and loop circumstances. Actually, to get a relatively good performance, we have to move relative slow when take turns in case that the feature tracking fails and triggering redetection too often. Moreover, if the surroundings have too few features to below a preset threshold (500 here), it won’t work.
-
+# Notificaiton
+You need to download the opencv.framework by yourself to make this project work on your own devices.
