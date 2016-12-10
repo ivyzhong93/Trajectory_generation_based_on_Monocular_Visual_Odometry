@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F358B71DF8B0CD009BD191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F358B61DF8B0CD009BD191 /* main.m */; };
+		50F358BA1DF8B0CD009BD191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F358B91DF8B0CD009BD191 /* AppDelegate.m */; };
+		50F358C01DF8B0CD009BD191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F358BE1DF8B0CD009BD191 /* Main.storyboard */; };
+		50F358C21DF8B0CD009BD191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F358C11DF8B0CD009BD191 /* Assets.xcassets */; };
+		50F358C51DF8B0CD009BD191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F358C31DF8B0CD009BD191 /* LaunchScreen.storyboard */; };
+		50F358D01DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F358CF1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.m */; };
+		50F358DE1DF8B13C009BD191 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358DB1DF8B13C009BD191 /* CoreImage.framework */; };
+		50F358DF1DF8B13C009BD191 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358DC1DF8B13C009BD191 /* CoreMedia.framework */; };
+		50F358E01DF8B13C009BD191 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358DD1DF8B13C009BD191 /* CoreVideo.framework */; };
+		50F358E41DF8B14B009BD191 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358E11DF8B14B009BD191 /* Accelerate.framework */; };
+		50F358E51DF8B14B009BD191 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358E21DF8B14B009BD191 /* AssetsLibrary.framework */; };
+		50F358E61DF8B14B009BD191 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358E31DF8B14B009BD191 /* AVFoundation.framework */; };
+		50F358E81DF8B158009BD191 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358E71DF8B158009BD191 /* QuartzCore.framework */; };
+		50F358EB1DF8B1BE009BD191 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F358EA1DF8B1BE009BD191 /* opencv2.framework */; };
+		50F358ED1DF8B1F3009BD191 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50F358EC1DF8B1F3009BD191 /* ViewController.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F358CC1DF8B0CD009BD191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F358AA1DF8B0CD009BD191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F358B11DF8B0CD009BD191;
+			remoteInfo = My_MonoVO_iOS4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F358B21DF8B0CD009BD191 /* My_MonoVO_iOS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_MonoVO_iOS4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F358B61DF8B0CD009BD191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F358B81DF8B0CD009BD191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F358B91DF8B0CD009BD191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F358BB1DF8B0CD009BD191 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F358BF1DF8B0CD009BD191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F358C11DF8B0CD009BD191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F358C41DF8B0CD009BD191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F358C61DF8B0CD009BD191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F358CB1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = My_MonoVO_iOS4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F358CF1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_MonoVO_iOS4Tests.m; sourceTree = "<group>"; };
+		50F358D11DF8B0CD009BD191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F358DB1DF8B13C009BD191 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		50F358DC1DF8B13C009BD191 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		50F358DD1DF8B13C009BD191 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		50F358E11DF8B14B009BD191 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		50F358E21DF8B14B009BD191 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		50F358E31DF8B14B009BD191 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50F358E71DF8B158009BD191 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		50F358E91DF8B1AE009BD191 /* vo_features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vo_features.h; sourceTree = "<group>"; };
+		50F358EA1DF8B1BE009BD191 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		50F358EC1DF8B1F3009BD191 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F358AF1DF8B0CD009BD191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F358EB1DF8B1BE009BD191 /* opencv2.framework in Frameworks */,
+				50F358E81DF8B158009BD191 /* QuartzCore.framework in Frameworks */,
+				50F358E41DF8B14B009BD191 /* Accelerate.framework in Frameworks */,
+				50F358E51DF8B14B009BD191 /* AssetsLibrary.framework in Frameworks */,
+				50F358E61DF8B14B009BD191 /* AVFoundation.framework in Frameworks */,
+				50F358DE1DF8B13C009BD191 /* CoreImage.framework in Frameworks */,
+				50F358DF1DF8B13C009BD191 /* CoreMedia.framework in Frameworks */,
+				50F358E01DF8B13C009BD191 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F358C81DF8B0CD009BD191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F358A91DF8B0CD009BD191 = {
+			isa = PBXGroup;
+			children = (
+				50F358B41DF8B0CD009BD191 /* My_MonoVO_iOS4 */,
+				50F358CE1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests */,
+				50F358B31DF8B0CD009BD191 /* Products */,
+				50F358DA1DF8B13C009BD191 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50F358B31DF8B0CD009BD191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F358B21DF8B0CD009BD191 /* My_MonoVO_iOS4.app */,
+				50F358CB1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F358B41DF8B0CD009BD191 /* My_MonoVO_iOS4 */ = {
+			isa = PBXGroup;
+			children = (
+				50F358E91DF8B1AE009BD191 /* vo_features.h */,
+				50F358B81DF8B0CD009BD191 /* AppDelegate.h */,
+				50F358B91DF8B0CD009BD191 /* AppDelegate.m */,
+				50F358BB1DF8B0CD009BD191 /* ViewController.h */,
+				50F358EC1DF8B1F3009BD191 /* ViewController.mm */,
+				50F358BE1DF8B0CD009BD191 /* Main.storyboard */,
+				50F358C11DF8B0CD009BD191 /* Assets.xcassets */,
+				50F358C31DF8B0CD009BD191 /* LaunchScreen.storyboard */,
+				50F358C61DF8B0CD009BD191 /* Info.plist */,
+				50F358B51DF8B0CD009BD191 /* Supporting Files */,
+			);
+			path = My_MonoVO_iOS4;
+			sourceTree = "<group>";
+		};
+		50F358B51DF8B0CD009BD191 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F358B61DF8B0CD009BD191 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F358CE1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50F358CF1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.m */,
+				50F358D11DF8B0CD009BD191 /* Info.plist */,
+			);
+			path = My_MonoVO_iOS4Tests;
+			sourceTree = "<group>";
+		};
+		50F358DA1DF8B13C009BD191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F358EA1DF8B1BE009BD191 /* opencv2.framework */,
+				50F358E71DF8B158009BD191 /* QuartzCore.framework */,
+				50F358E11DF8B14B009BD191 /* Accelerate.framework */,
+				50F358E21DF8B14B009BD191 /* AssetsLibrary.framework */,
+				50F358E31DF8B14B009BD191 /* AVFoundation.framework */,
+				50F358DB1DF8B13C009BD191 /* CoreImage.framework */,
+				50F358DC1DF8B13C009BD191 /* CoreMedia.framework */,
+				50F358DD1DF8B13C009BD191 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F358B11DF8B0CD009BD191 /* My_MonoVO_iOS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F358D41DF8B0CD009BD191 /* Build configuration list for PBXNativeTarget "My_MonoVO_iOS4" */;
+			buildPhases = (
+				50F358AE1DF8B0CD009BD191 /* Sources */,
+				50F358AF1DF8B0CD009BD191 /* Frameworks */,
+				50F358B01DF8B0CD009BD191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = My_MonoVO_iOS4;
+			productName = My_MonoVO_iOS4;
+			productReference = 50F358B21DF8B0CD009BD191 /* My_MonoVO_iOS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F358CA1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F358D71DF8B0CD009BD191 /* Build configuration list for PBXNativeTarget "My_MonoVO_iOS4Tests" */;
+			buildPhases = (
+				50F358C71DF8B0CD009BD191 /* Sources */,
+				50F358C81DF8B0CD009BD191 /* Frameworks */,
+				50F358C91DF8B0CD009BD191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F358CD1DF8B0CD009BD191 /* PBXTargetDependency */,
+			);
+			name = My_MonoVO_iOS4Tests;
+			productName = My_MonoVO_iOS4Tests;
+			productReference = 50F358CB1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F358AA1DF8B0CD009BD191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Carnegie Mellon University";
+				TargetAttributes = {
+					50F358B11DF8B0CD009BD191 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8RRUYS9SRA;
+						ProvisioningStyle = Automatic;
+					};
+					50F358CA1DF8B0CD009BD191 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8RRUYS9SRA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F358B11DF8B0CD009BD191;
+					};
+				};
+			};
+			buildConfigurationList = 50F358AD1DF8B0CD009BD191 /* Build configuration list for PBXProject "My_MonoVO_iOS4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F358A91DF8B0CD009BD191;
+			productRefGroup = 50F358B31DF8B0CD009BD191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F358B11DF8B0CD009BD191 /* My_MonoVO_iOS4 */,
+				50F358CA1DF8B0CD009BD191 /* My_MonoVO_iOS4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F358B01DF8B0CD009BD191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F358C51DF8B0CD009BD191 /* LaunchScreen.storyboard in Resources */,
+				50F358C21DF8B0CD009BD191 /* Assets.xcassets in Resources */,
+				50F358C01DF8B0CD009BD191 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F358C91DF8B0CD009BD191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F358AE1DF8B0CD009BD191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F358BA1DF8B0CD009BD191 /* AppDelegate.m in Sources */,
+				50F358B71DF8B0CD009BD191 /* main.m in Sources */,
+				50F358ED1DF8B1F3009BD191 /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F358C71DF8B0CD009BD191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F358D01DF8B0CD009BD191 /* My_MonoVO_iOS4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F358CD1DF8B0CD009BD191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F358B11DF8B0CD009BD191 /* My_MonoVO_iOS4 */;
+			targetProxy = 50F358CC1DF8B0CD009BD191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F358BE1DF8B0CD009BD191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F358BF1DF8B0CD009BD191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F358C31DF8B0CD009BD191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F358C41DF8B0CD009BD191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F358D21DF8B0CD009BD191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F358D31DF8B0CD009BD191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F358D51DF8B0CD009BD191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RRUYS9SRA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = My_MonoVO_iOS4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu-16623-zhixuany.My-MonoVO-iOS4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50F358D61DF8B0CD009BD191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RRUYS9SRA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = My_MonoVO_iOS4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu-16623-zhixuany.My-MonoVO-iOS4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50F358D81DF8B0CD009BD191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RRUYS9SRA;
+				INFOPLIST_FILE = My_MonoVO_iOS4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu-16623-zhixuany.My-MonoVO-iOS4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My_MonoVO_iOS4.app/My_MonoVO_iOS4";
+			};
+			name = Debug;
+		};
+		50F358D91DF8B0CD009BD191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RRUYS9SRA;
+				INFOPLIST_FILE = My_MonoVO_iOS4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu-16623-zhixuany.My-MonoVO-iOS4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My_MonoVO_iOS4.app/My_MonoVO_iOS4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F358AD1DF8B0CD009BD191 /* Build configuration list for PBXProject "My_MonoVO_iOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F358D21DF8B0CD009BD191 /* Debug */,
+				50F358D31DF8B0CD009BD191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F358D41DF8B0CD009BD191 /* Build configuration list for PBXNativeTarget "My_MonoVO_iOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F358D51DF8B0CD009BD191 /* Debug */,
+				50F358D61DF8B0CD009BD191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F358D71DF8B0CD009BD191 /* Build configuration list for PBXNativeTarget "My_MonoVO_iOS4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F358D81DF8B0CD009BD191 /* Debug */,
+				50F358D91DF8B0CD009BD191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F358AA1DF8B0CD009BD191 /* Project object */;
+}
